@@ -1,0 +1,25 @@
+.navigation{
+	padding: 1px;
+	list-style: none;
+	background-color: rgba(88, 98, 111, 1);
+	width: 100%;
+	position: fixed;
+  
+}
+
+.navigation li{
+	display: inline;
+	margin: 50px;
+	font-family: Roboto;
+	font-weight: lighter;
+	font-size: 16px;
+	
+}
+
+.navigation li:hover{
+	color: #158677;
+}
+
+.navigation li.active{
+	color: #32BE93;
+}
